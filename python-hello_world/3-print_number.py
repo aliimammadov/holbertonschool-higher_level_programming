@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-number = int(input())
+number = 333
 print(f"{number} Battery street")
