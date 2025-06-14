@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-def uppercase(str):
-    result = ""
-    for c in str:
-        if ord('a') <= ord(c) <= ord('z'):
-            result += chr(ord(c) - 32)
-        else:
-            result += c
-    print("{}".format(result))
+def print_last_digit(number):
+    last_digit = abs(number) % 10
+    print("{}".format(last_digit), end="")
+    return last_digit
